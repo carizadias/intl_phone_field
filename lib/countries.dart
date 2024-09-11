@@ -1119,6 +1119,27 @@ const List<Country> countries = [
     maxLength: 8,
   ),
   Country(
+    name: "Cabo Verde",
+    nameTranslations: {
+      "en": "Cape Verde",
+      "pt_BR": "Cabo Verde",
+      "es": "Cabo Verde",
+      "fr": "Cap-Vert",
+      "de": "Kap Verde",
+      "it": "Capo Verde",
+      "nl": "Kaapverdië",
+      "zh": "佛得角",
+      "ja": "カーボベルデ",
+      "ar": "الرأس الأخضر",
+      "ru": "Кабо-Верде",
+    },
+    flag: "🇨🇻",
+    code: "CV",
+    dialCode: "+238",
+    minLength: 7, // Ajuste conforme o formato local
+    maxLength: 7, // Ajuste conforme o formato local
+  ),
+  Country(
     name: "Cambodia",
     nameTranslations: {
       "sk": "Kambodža",
