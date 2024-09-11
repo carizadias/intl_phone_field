@@ -1135,7 +1135,7 @@ const List<Country> countries = [
     },
     flag: "🇨🇻",
     code: "CV",
-    dialCode: "+238",
+    dialCode: "238",
     minLength: 7, // Ajuste conforme o formato local
     maxLength: 7, // Ajuste conforme o formato local
   ),
